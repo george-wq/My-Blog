@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>React Hooks | Vuepress Docs Boilerplate</title>
+    <meta name="description" content="MYDOCS">
+    <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/My-Blog/assets/css/0.styles.a638c734.css" as="style"><link rel="preload" href="/My-Blog/assets/js/app.3d1bd1a2.js" as="script"><link rel="preload" href="/My-Blog/assets/js/2.675a61e4.js" as="script"><link rel="preload" href="/My-Blog/assets/js/10.3c2cd5c2.js" as="script"><link rel="prefetch" href="/My-Blog/assets/js/11.c232270c.js"><link rel="prefetch" href="/My-Blog/assets/js/12.2c2deb19.js"><link rel="prefetch" href="/My-Blog/assets/js/3.c26aa86f.js"><link rel="prefetch" href="/My-Blog/assets/js/4.2074a04a.js"><link rel="prefetch" href="/My-Blog/assets/js/5.b3fa156a.js"><link rel="prefetch" href="/My-Blog/assets/js/6.d637f9c8.js"><link rel="prefetch" href="/My-Blog/assets/js/7.cc8f9b82.js"><link rel="prefetch" href="/My-Blog/assets/js/8.d2cf7974.js"><link rel="prefetch" href="/My-Blog/assets/js/9.a024d36a.js">
+    <link rel="stylesheet" href="/My-Blog/assets/css/0.styles.a638c734.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/My-Blog/" class="home-link router-link-active"><!----> <span class="site-name">Vuepress Docs Boilerplate</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/My-Blog/guide/" class="nav-link router-link-exact-active router-link-active">Guide</a></div><div class="nav-item"><a href="/My-Blog/config/" class="nav-link">Config</a></div><div class="nav-item"><a href="https://v1.vuepress.vuejs.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/My-Blog/guide/" class="nav-link router-link-exact-active router-link-active">Guide</a></div><div class="nav-item"><a href="/My-Blog/config/" class="nav-link">Config</a></div><div class="nav-item"><a href="https://v1.vuepress.vuejs.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/My-Blog/guide/" class="active sidebar-link">React Hooks</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/My-Blog/guide/using-vue.html" class="sidebar-link">/guide/using-vue.html</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="react-hooks"><a href="#react-hooks" class="header-anchor">#</a> React Hooks</h1> <blockquote><p>Hook 是 React 16.8 的新增特性。它是函数式组件，它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。</p></blockquote> <p>在 react hook中我们需要理解它的数据(state、props)和生命周期。useState Hook &amp;&amp; useEffect Hook</p> <h3 id="组件类的缺点"><a href="#组件类的缺点" class="header-anchor">#</a> 组件类的缺点</h3> <p>React 的核心是组件。v16.8 版本之前，组件的标准写法是类（class）。下面是一个简单的组件类。</p> <div class="language- extra-class"><pre class="language-text"><code>import React, { Component } from &quot;react&quot;;
+
+export default class Button extends Component {
+  constructor() {
+    super();
+    this.state = { buttonText: &quot;Click me, please&quot; };
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick() {
+    this.setState(() =&gt; {
+      return { buttonText: &quot;Thanks, been clicked!&quot; };
+    });
+  }
+  render() {
+    const { buttonText } = this.state;
+    return &lt;button onClick={this.handleClick}&gt;{buttonText}&lt;/button&gt;;
+  }
+}
+</code></pre></div><p>这个组件类仅仅是一个按钮，但可以看到，它的代码已经很&quot;重&quot;了。真实的 React App 由多个类按照层级，一层层构成，复杂度成倍增长。再加入 Redux，就变得更复杂。</p> <p>Redux 的作者 Dan Abramov 总结了组件类的几个缺点。</p> <ul><li>大型组件很难拆分和重构，也很难测试。</li> <li>业务逻辑分散在组件的各个方法之中，导致重复逻辑或关联逻辑。</li> <li>组件类引入了复杂的编程模式，比如 render props 和高阶组件。</li></ul> <h3 id="函数组件"><a href="#函数组件" class="header-anchor">#</a> 函数组件</h3> <p>React 团队希望，组件不要变成复杂的容器，最好只是数据流的管道。开发者根据需要，组合管道即可。 组件的最佳写法应该是函数，而不是类。</p> <p>React 早就支持函数组件，下面就是一个例子。</p> <div class="language- extra-class"><pre class="language-text"><code>function Welcome(props) {
+  return &lt;h1&gt;Hello, {props.name}&lt;/h1&gt;;
+}
+</code></pre></div><p>但是，这种写法有重大限制，必须是纯函数，不能包含状态，也不支持生命周期方法，因此无法取代类。</p> <p>React Hooks 的设计目的，就是加强版函数组件，完全不使用&quot;类&quot;，就能写出一个全功能的组件。</p> <h3 id="hook-的含义"><a href="#hook-的含义" class="header-anchor">#</a> Hook 的含义</h3> <p>Hook 这个单词的意思是&quot;钩子&quot;。</p> <p>React Hooks 的意思是，组件尽量写成纯函数，如果需要外部功能和副作用，就用钩子把外部代码&quot;钩&quot;进来。 React Hooks 就是那些钩子。</p> <p>你需要什么功能，就使用什么钩子。React 默认提供了一些常用钩子，你也可以封装自己的钩子。</p> <p>所有的钩子都是为函数引入外部功能，所以 React 约定，钩子一律使用use前缀命名，便于识别。你要使用 xxx 功能，钩子就命名为 usexxx。</p> <p>下面介绍 React 默认提供的四个最常用的钩子。</p> <ul><li>useState()</li> <li>useContext()</li> <li>useReducer()</li> <li>useEffect()</li></ul> <h3 id="在react-hook中如何定义状态、修改状态、传入初始状态、生命周期"><a href="#在react-hook中如何定义状态、修改状态、传入初始状态、生命周期" class="header-anchor">#</a> 在react hook中如何定义状态、修改状态、传入初始状态、生命周期</h3> <div class="language- extra-class"><pre class="language-text"><code>import React, { useState, useEffect } from 'react';
+
+const App = () =&gt; {
+  const [ value1, setvalue1 ] = useState(0);
+  const [ value2, setvalue2 ] = useState(100);
+  
+  useEffect(() =&gt; { 
+    // 类似于 componentDidMount &amp;&amp; componentDidUpdate
+    console.log('hello') 
+    // 类似于 componentWillUnmount 
+    return () =&gt; {
+      console.log('hello world!');
+    }
+  });
+
+  return (
+    &lt;div&gt;
+      &lt;div&gt;{value1}&lt;/div&gt;
+      &lt;div&gt;{value2}&lt;/div&gt;
+      &lt;button onClick={(e) =&gt; setvalue1(value1 + 1)}&gt;add&lt;/button&gt;
+      &lt;button onClick={(e) =&gt; setvalue2(value2 - 1)}&gt;remove&lt;/button&gt;
+    &lt;/div&gt;
+  )
+}
+
+export default App;
+</code></pre></div><h3 id="usecontext-：共享状态钩子"><a href="#usecontext-：共享状态钩子" class="header-anchor">#</a> useContext()：共享状态钩子</h3> <p>如果需要在组件之间共享状态，可以使用useContext()</p> <p>现在有两个组件 Navbar 和 Messages，我们希望它们之间共享状态。</p> <p>第一步就是使用 React Context API，在组件外部建立一个 Context</p> <div class="language- extra-class"><pre class="language-text"><code>const AppContext = React.createContext({});
+</code></pre></div><p>组件封装代码如下</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;AppContext.Provider value={{
+  username: 'superawesome'
+}}&gt;
+  &lt;div className=&quot;App&quot;&gt;
+    &lt;Navbar/&gt;
+    &lt;Messages/&gt;
+  &lt;/div&gt;
+&lt;/AppContext.Provider&gt;
+</code></pre></div><p>上面代码中，AppContext.Provider提供了一个 Context 对象，这个对象可以被子组件共享。</p> <div class="language- extra-class"><pre class="language-text"><code>const Navbar = () =&gt; {
+  const { username } = useContext(AppContext);
+  return (
+    &lt;div className=&quot;navbar&quot;&gt;
+      &lt;p&gt;AwesomeSite&lt;/p&gt;
+      &lt;p&gt;{username}&lt;/p&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre></div><p>上面代码中，useContext()钩子函数用来引入 Context 对象，从中获取username属性。</p> <p>Message 组件的代码也类似。</p> <div class="language- extra-class"><pre class="language-text"><code>const Messages = () =&gt; {
+  const { username } = useContext(AppContext)
+
+  return (
+    &lt;div className=&quot;messages&quot;&gt;
+      &lt;h1&gt;Messages&lt;/h1&gt;
+      &lt;p&gt;1 message for {username}&lt;/p&gt;
+      &lt;p className=&quot;message&quot;&gt;useContext is awesome!&lt;/p&gt;
+    &lt;/div&gt;
+  )
+}
+</code></pre></div><h3 id="usereducer-：action-钩子"><a href="#usereducer-：action-钩子" class="header-anchor">#</a> useReducer()：action 钩子</h3> <p>React 本身不提供状态管理功能，通常需要使用外部库。这方面最常用的库是 Redux。</p> <p>Redux 的核心概念是，组件发出 action 与状态管理器通信。状态管理器收到 action 以后，使用 Reducer 函数算出新的状态，Reducer 函数的形式是(state, action) =&gt; newState。</p> <p>useReducers()钩子用来引入 Reducer 功能。</p> <div class="language- extra-class"><pre class="language-text"><code>const [state, dispatch] = useReducer(reducer, initialState);
+</code></pre></div><p>上面是useReducer()的基本用法，它接受 Reducer 函数和状态的初始值作为参数，返回一个数组。数组的第一个成员是状态的当前值，第二个成员是发送 action 的dispatch函数。</p> <p>下面是一个计数器的例子。用于计算状态的 Reducer 函数如下。</p> <div class="language- extra-class"><pre class="language-text"><code>const myReducer = (state, action) =&gt; {
+  switch(action.type)  {
+    case('countUp'):
+      return  {
+        ...state,
+        count: state.count + 1
+      }
+    default:
+      return  state;
+  }
+}
+</code></pre></div><p>组件代码如下。</p> <div class="language- extra-class"><pre class="language-text"><code>const App = () =&gt; {
+  const [state, dispatch] = useReducer(myReducer, { count:   0 });
+  return  (
+    &lt;div className=&quot;App&quot;&gt;
+      &lt;button onClick={() =&gt; dispatch({ type: 'countUp' })}&gt;
+        +1
+      &lt;/button&gt;
+      &lt;p&gt;Count: {state.count}&lt;/p&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre></div><p>由于 Hooks 可以提供共享状态和 Reducer 函数，所以它在这些方面可以取代 Redux。但是，它没法提供中间件（middleware）和时间旅行（time travel），如果你需要这两个功能，还是要用 Redux。</p> <h3 id="创建自己的-hooks"><a href="#创建自己的-hooks" class="header-anchor">#</a> 创建自己的 Hooks</h3> <p>上例的 Hooks 代码还可以封装起来，变成一个自定义的 Hook，便于共享。</p> <div class="language- extra-class"><pre class="language-text"><code>const usePerson = (personId) =&gt; {
+  const [loading, setLoading] = useState(true);
+  const [person, setPerson] = useState({});
+  useEffect(() =&gt; {
+    setLoading(true);
+    fetch(`https://swapi.co/api/people/${personId}/`)
+      .then(response =&gt; response.json())
+      .then(data =&gt; {
+        setPerson(data);
+        setLoading(false);
+      });
+  }, [personId]);  
+  return [loading, person];
+};
+</code></pre></div><p>上面代码中，usePerson()就是一个自定义的 Hook。</p> <p>Person 组件就改用这个新的钩子，引入封装的逻辑。</p> <div class="language- extra-class"><pre class="language-text"><code>const Person = ({ personId }) =&gt; {
+  const [loading, person] = usePerson(personId);
+
+  if (loading === true) {
+    return &lt;p&gt;Loading...&lt;/p&gt;;
+  }
+
+  return (
+    &lt;div&gt;
+      &lt;p&gt;You're viewing: {person.name}&lt;/p&gt;
+      &lt;p&gt;Height: {person.height}&lt;/p&gt;
+      &lt;p&gt;Mass: {person.mass}&lt;/p&gt;
+    &lt;/div&gt;
+  );
+};
+</code></pre></div><p><a href="http://www.ruanyifeng.com/blog/2019/09/react-hooks.html" target="_blank" rel="noopener noreferrer">React Hooks 教程<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <a href="https://github.com/brickspert/blog/issues/26" target="_blank" rel="noopener noreferrer">React Hooks 原理<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/My-Blog/guide/using-vue.html">/guide/using-vue.html</a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/My-Blog/assets/js/app.3d1bd1a2.js" defer></script><script src="/My-Blog/assets/js/2.675a61e4.js" defer></script><script src="/My-Blog/assets/js/10.3c2cd5c2.js" defer></script>
+  </body>
+</html>
